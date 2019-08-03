@@ -45,12 +45,12 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2"><input type="button" value="Boton"></td>
-                <td colspan="2"><input type="button" value="Boton"></td>
+                <td colspan="2"><input class="ejemplo" type="button" value="Boton"></td>
+                <td colspan="2"><input class="ejemplo" type="button" value="Boton"></td>
             </tr>
             <tr>
                 <td colspan="2"><input type="button" value="Boton"></td>
-                <td colspan="2"><input type="button" value="Boton"></td>
+                <td colspan="2"><input class="ejemplo" type="button" value="Boton"></td>
             </tr>
         </table>
     </div>
@@ -70,6 +70,36 @@
                     <td>$("*")</td>
                     <td>Selecciona todos los elementos de la página</td>
                     <td><input type="button" id="todos" value="Seleccionar"></td>
+                </tr>
+                <tr>
+                    <td>Elemento</td>
+                    <td>$("p")</td>
+                    <td>Seleccionar un documento HTML</td>
+                    <td><input type="button" id="elemento" value="Seleccionar"></td>
+                </tr>
+                <tr>
+                    <td>Id</td>
+                    <td>$("#Email")</td>
+                    <td>Seleccionar un elemento por ID</td>
+                    <td><input type="button" id="elementoID" value="Seleccionar"></td>
+                </tr>
+                <tr>
+                    <td>Class</td>
+                    <td>$(".ejemplo")</td>
+                    <td>Seleccionar un elemento que contenga una clase asignada</td>
+                    <td><input type="button" id="elementoClase" value="Seleccionar"></td>
+                </tr>
+                <tr>
+                    <td>Class</td>
+                    <td>$("input")</td>
+                    <td>Seleccionar todos los input</td>
+                    <td><input type="button" id="elementoInput" value="Seleccionar"></td>
+                </tr>
+                <tr>
+                    <td>Ajax</td>
+                    <td>$.ajax("objeto")</td>
+                    <td>Genera una petición a un web services o API Rest</td>
+                    <td><input type="button" id="ajax" value="Seleccionar"></td>
                 </tr>
             </tbody>
         </table>
